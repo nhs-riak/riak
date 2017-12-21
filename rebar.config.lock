@@ -135,7 +135,7 @@
                    "429cbd4addc66fc59d9e1e2c2507a79b2e229bd1"}},
        {riak_kv,".*",
                 {git,"git://github.com/nhs-riak/riak_kv.git",
-                     "c9a0ef3e66f32328af17c8ac7821ff676bb955cc"}},
+                     "bb2e436924e0833b65da68c386250ad78e4d8c9f"}},
        {erlydtl,".*",
                 {git,"git://github.com/erlydtl/erlydtl.git",
                      "d20b53f04837a1053ed18987f645cb60eae82453"}},
