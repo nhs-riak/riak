@@ -25,11 +25,11 @@ replication. The rest of the changes are fixes (riak-core claim,
 repl), new features (gsets, participate in coverage, node-confirms),
 and fixes to tests and the build/development process.
 
-[Improvements](#Improvements)
+[Improvements](#improvements)
 
-[Known Issues](#Known-issues) - please read **before upgrading** from a previous Riak release
+[Known Issues](#known-issues) - please read **before upgrading** from a previous Riak release
 
-[Log of Changes](#Change-log-for-this-release)
+[Log of Changes](#change-log-for-this-release)
 
 [Previous Release Notes](RELEASE-NOTES-2_2_4.md)
 
