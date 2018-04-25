@@ -43,7 +43,7 @@ longer a RiakEE product. All development is in the open on Open Source
 Riak going forward. Please consult the existing documentation for
 [MDC](http://docs.basho.com/riak/kv/2.2.3/configuring/v3-multi-datacenter/). Again,
 many thanks to bet365 Technology for this addition. See also [Known
-Issues]#known-issues) below.
+Issues](#known-issues) below.
 
 #### Core Claim Fixes
 
