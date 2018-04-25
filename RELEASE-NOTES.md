@@ -22,7 +22,7 @@ riak-2.2.3.
 
 This is the first release with open source multi-data-centre
 replication. The rest of the changes are fixes ([riak-core claim](#core-claim-fixes),
-repl), new features ([gsets](#gsets), [participate in coverage](participate-in-2i), [node-confirms](#node-confirms)),
+repl), new features ([gsets](#gsets), [participate in coverage](#participate-in-2i), [node-confirms](#node-confirms)),
 and [fixes to tests](#developer-improvements) and the build/development process.
 
 [Improvements](#improvements)
