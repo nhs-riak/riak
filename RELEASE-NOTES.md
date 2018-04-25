@@ -2,6 +2,8 @@
 
 > This release is dedicated to the memory of Andy Gross. Thank you and RIP.
 
+## Overview
+
 This is the first full community release of Riak, post-Basho's
 collapse into bankruptcy. A lot has happened, in particular [bet365](https://twitter.com/bet365Tech) bought Basho's
 assets and donated the code to the community. They kept the Basho
@@ -166,6 +168,6 @@ More details about the issue can be found in riak\_repl/782: [2.2.5 - \[enoent\]
 * riak_repl/780: [Fix sometime failing test](https://github.com/basho/riak_repl/pull/780)
 * riak_repl/782: [Change ETS queue table permissions to protected](https://github.com/basho/riak_repl/pull/782)
 
- ## Previous Release NOTES
+## Previous Release NOTES
 
- [Full history of Riak 2.0 release notes](RELEASE-NOTES-2_2_4.md)
+[Full history of Riak 2.0 release notes](RELEASE-NOTES-2_2_4.md)
