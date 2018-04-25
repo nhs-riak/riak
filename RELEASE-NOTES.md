@@ -85,7 +85,7 @@ This release adds another Riak Data Type, the GSet CRDT. The GSet is a
 grow only set, and has simpler semantics and better merge performance
 than the existing Riak Set. See documentation for details.
 
-#### Developer Improvments
+#### Developer Improvements
 
 The tests didn't pass. Now they do. More details
 [here](https://github.com/russelldb/russelldb.github.io/blob/b228eacd4fd3246b4eb7f8d0b98c6bed747e2514/make_test.md)
