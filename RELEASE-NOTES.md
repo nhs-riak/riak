@@ -3,16 +3,16 @@
 #### This release is dedicated to the memory of Andy Gross. Thank you and RIP.
 
 This is the first full community release of Riak, post-Basho's
-collapse into bankruptcy. A lot has happened. bet365 bought Basho's
+collapse into bankruptcy. A lot has happened, in particular bet365 bought Basho's
 assets and donated the code to the community. They kept the Basho
 website running, the documents site, the mailing list (after tiot.jp
-initially mirrored the docs in the interim.) They did a huge amount to
+had helpfully mirrored the docs in the interim), and have done a huge amount to
 provide continuity to the community.
 
 The development work on this release of Riak has received significant
 funding from NHS Digital, who depend on Riak for Spine II, and other
 critical services. Thanks also to ESL, tiot.jp, and all the other
-individuals and organizations involved.
+individuals and organisations involved.
 
 This release of Riak is based on the last known-good release of Riak,
 riak-2.2.3. There is good work in the `develop` branches of many Basho
@@ -21,9 +21,9 @@ just status-unknown, we decided as a community to go forward based on
 riak-2.2.3.
 
 This is the first release with open source multi-data-centre
-replication. The rest of the changes are fixes (riak-core claim,
-repl), new features (gsets, participate in coverage, node-confirms),
-and fixes to tests and the build/development process.
+replication. The rest of the changes are fixes ([riak-core claim](#core-claim-fixes),
+repl), new features ([gsets](#gsets), [participate in coverage](participate-in-2i), [node-confirms](#node-confirms)),
+and [fixes to tests](#developer-improvements) and the build/development process.
 
 [Improvements](#improvements)
 
