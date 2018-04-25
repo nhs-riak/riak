@@ -1,6 +1,6 @@
 # Riak KV 2.2.5 Release Notes
 
-#### This release is dedicated to the memory of Andy Gross. Thank you and RIP.
+> This release is dedicated to the memory of Andy Gross. Thank you and RIP.
 
 This is the first full community release of Riak, post-Basho's
 collapse into bankruptcy. A lot has happened, in particular [bet365](https://twitter.com/bet365Tech) bought Basho's
