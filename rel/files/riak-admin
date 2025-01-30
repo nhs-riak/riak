@@ -51,6 +51,7 @@ usage() {
     echo "                    reip | reip_manual | erl-reload | wait-for-service | "
     echo "                    ringready | transfers | force-remove | down |"
     echo "                    cluster-info | member-status | ring-status | vnode-status |"
+    echo "                    tictacaae <subcommand> |"
     echo "                    aae-status | diag | stat | status | transfer-limit | reformat-indexes |"
     echo "                    top [-interval N] [-sort reductions|memory|msg_q] [-lines N] |"
     echo "                    downgrade-objects | security | bucket-type | repair-2i |"
@@ -351,7 +352,7 @@ plan must be committed to take effect:
    force-replace <node1> <node2>   Reassign all partitions owned by <node1> to
                                    <node2> without first handing off data, and
                                    remove <node1> from the cluster.
-    
+
    location <location_name>        Assign a location to the current node
 
 Staging commands:
@@ -615,6 +616,15 @@ The follow commands can be used to manage bucket types for the cluster:
     esac
 }
 
+
+tictacaae_admin()
+{
+    # this command will print usage in erlang code
+    rpc riak_kv_console tictacaae_cmd "$@"
+}
+
+
+
 # Check the first argument for instructions
 case "$1" in
     join)
@@ -876,7 +886,7 @@ case "$1" in
         #     -eval "riak_kv_console:$ACTION(['$OLDNODE', '$NEWNODE'])" \
         #     -s init stop
         # ;;
-    
+
     reip_manual)
         ACTION=$1
         shift
@@ -1029,6 +1039,10 @@ case "$1" in
     search)
         shift
         search_admin "$@"
+        ;;
+    tictacaae)
+        shift
+        tictacaae_admin "$@"
         ;;
     *)
         usage
